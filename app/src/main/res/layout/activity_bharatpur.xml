@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuktigoswami.hackathon.Bharatpur">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Bharatpur"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="5dp">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Introduction"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Bharatpur District is a district of Rajasthan state in western India also known as Jat Kingdom. The town of Bharatpur is the District Headquarters and Divisional Headquarters. Bharatpur District is a part of National Capital Region (NCR).The district has an area of 5,066 km2. It is bounded by NUH district of Haryana on the north, Mathura and Agra districts of Uttar Pradesh on the east, and the district of Dholpur on the south, Karauli on the southwest, Dausa on the west and Alwar district in the north-west."
+                            android:textColor="@android:color/background_dark"></TextView>
+
+                        <ImageView
+                            android:id="@+id/imageView13"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="0.09"
+                            app:srcCompat="@drawable/bharatpur3" />
+
+                        <ImageView
+                            android:id="@+id/imageView39"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/bharatpur4" />
+
+                        <ImageView
+                            android:id="@+id/imageView40"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/bharatpur5" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hotspots"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tourist attractions in Bharatpur: Keoladeo National Park ,Lohagarh Fort ,Laxman Ji mandir ,Ganga mandir ,nnBankebihari temple, inside Lohagarh Fort, Government Museum ,Vishwapriya Shastri Park, Golbagh Palace, Moti Mahal (Bharatpur),Shri Rajendra suri kirti mandir ,Kishori Mehal, Laxmi Vilas Palace, Jawahar Burj ,Fateh Burj ,Nehru Park ,Dev Narayan Temple(Sarsena)"
+                            android:textColor="@android:color/background_dark" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="10dp"
+                        android:weightSum="1">
+
+                        <ImageView
+                            android:id="@+id/imageView36"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/bharatpur" />
+
+                        <ImageView
+                            android:id="@+id/imageView15"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/bharatpur2" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="History"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.93"
+                            android:text="When Bharatpur was a princely state, it was the only political entity ever to have a chartreuse colored flag. The first person to top the state board with first position and the first I.A.S officer from the district was Mr. Deepak Trivedi, a 1985 batch officer of Uttar Pradesh cadre.Three rivers, the Ban Ganga, Rooparel, and Gambhir, cross the district. The Ban Ganga originates in Jaipur District, passes through Dausa and Bharatpur districts to meet the Yamuna River in Uttar Pradesh. The Gambhir River starts from Pachana Dam of Karauli District, and meets the Ban Ganga in Bayana Tehsil. The Rooparel River starts from hills of Alwar District and enters the district in Kaman Tehsil."
+                            android:textColor="@android:color/background_dark" />
+
+                        <ImageView
+                            android:id="@+id/imageView14"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_weight="0.09"
+                            app:srcCompat="@drawable/bharatpur6" />
+
+                        <ImageView
+                            android:id="@+id/imageView42"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/bharatpur5" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

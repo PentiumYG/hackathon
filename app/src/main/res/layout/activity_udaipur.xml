@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuktigoswami.hackathon.Udaipur">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Udaipur"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="5dp">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Introduction"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Udaipur , also known as the 'City of Lakes', the 'Venice of the East', or the 'Kashmir of Rajasthan', is a major city, municipal corporation and the administrative headquarters of the Udaipur district in the Indian state of Rajasthan. It is the historic capital of the kingdom of Mewar in the former Rajputana Agency. It was founded in 1553 by Maharana Udai Singh of the Sisodia clan of Rajput, when he shifted his capital from the city of Chittorgarh to Udaipur. It remained as the capital city till 1818 when it became a British princely state, and thereafter the Mewar province became a part of Rajasthan when India gained independence in 1947."
+                            android:textColor="@android:color/background_dark"></TextView>
+
+                        <ImageView
+                            android:id="@+id/imageView13"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_weight="0.09"
+                            app:srcCompat="@drawable/uda2" />
+
+                        <ImageView
+                            android:id="@+id/imageView74"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/uda4" />
+
+                        <ImageView
+                            android:id="@+id/imageView75"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/uda5" />
+
+                        <ImageView
+                            android:id="@+id/imageView76"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/uda6" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hotspots"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Famous tourists spots in udaipur are:City Palace, Lake palace, Jag Mandir, Kesariyaji Temple, Monsoon Palace, Jagdish Temple, Fateh Sagar Lake, Sukhadia Circle, Saheliyon-ki-Bari, Lake Pichola, Moti Magri, Neemach Mata Temple, Karni Mata, Udaipur, Pratap Gaurav Kendra, Gulab Bagh and Zoo and Pratap Park"
+                            android:textColor="@android:color/background_dark" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="10dp"
+                        android:weightSum="1">
+
+                        <ImageView
+                            android:id="@+id/imageView79"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/uda" />
+
+                        <ImageView
+                            android:id="@+id/imageView78"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/uda1" />
+
+                        <ImageView
+                            android:id="@+id/imageView15"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/uda3" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="History"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.93"
+                            android:text="The Ahar River bank was inhabited by men in about 2000 B.C. There are footprints of two different civilizations, which provides claims about earliest inhabitants of the Ahar culture: the first ones are the Bhil/Bheels, the indigenous tribes originated at this place, and are still residing in the area in large numbers. The second footprints were unknown foreigners, who once entered the enclosed valley, and then continued to live in this place for centuries.As the Mughal empire weakened, the Sisodia rulers, reasserted their independence and recaptured most of Mewar except for Chittor. Udaipur remained the capital of the state, which became a princely state of British India in 1818. Being a mountainous region and unsuitable for heavily armoured Mughal horses, Udaipur remained safe from Mughal influence despite much pressure. At present, Arvind Singh Mewar is the 76th custodian of the Mewar dynasty."
+                            android:textColor="@android:color/background_dark" />
+
+                        <ImageView
+                            android:id="@+id/imageView14"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_weight="0.09"
+                            app:srcCompat="@drawable/uda7" />
+
+                        <ImageView
+                            android:id="@+id/imageView80"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/uda9" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

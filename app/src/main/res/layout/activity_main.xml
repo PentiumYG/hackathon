@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuktigoswami.hackathon.MainActivity"
+    android:background="@drawable/splash1">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:background="#8af4eeee"
+        android:fontFamily="serif"
+        android:text="Welcome"
+        android:textColor="@android:color/background_dark"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:background="#94ffffff"
+        android:fontFamily="serif"
+        android:text="to"
+        android:textColor="@android:color/background_dark"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:background="#94ffffff"
+        android:fontFamily="serif"
+        android:text="Rajasthan"
+        android:textColor="@android:color/background_dark"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+</RelativeLayout>

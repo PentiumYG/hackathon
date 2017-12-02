@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuktigoswami.hackathon.Clicklogin">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:text="Art is a gift of God"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignBottom="@+id/name"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="17dp"
+                android:text="Name"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/name"
+                android:layout_below="@+id/name"
+                android:layout_marginTop="24dp"
+                android:ems="10"
+                android:hint="Enter your State"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/talent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/state"
+                android:layout_below="@+id/state"
+                android:layout_marginTop="19dp"
+                android:ems="10"
+                android:hint="Specify your talents"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/instrument"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/talent"
+                android:layout_below="@+id/talent"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Instrumnts you play (if any)"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/instrument"
+                android:layout_below="@+id/instrument"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Home address"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/members"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/address"
+                android:layout_below="@+id/address"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="Number of members "
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/anyEventPerformed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/members"
+                android:layout_below="@+id/members"
+                android:layout_marginTop="14dp"
+                android:ems="10"
+                android:hint="Name of event"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/detailsOfEvents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:ems="10"
+                android:hint="When and where"
+                android:inputType="textPersonName"
+                android:layout_below="@+id/AnyEventPerformed"
+                android:layout_alignStart="@+id/anyEventPerformed" />
+
+            <EditText
+                android:id="@+id/contactNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/anyEventPerformed"
+                android:layout_below="@+id/DetailsOfEvents"
+                android:layout_marginTop="25dp"
+                android:ems="10"
+                android:hint="mobile number."
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="35dp"
+                android:layout_marginTop="12dp"
+                android:ems="10"
+                android:hint="Enter your full name."
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/State"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/Name"
+                android:layout_alignTop="@+id/state"
+                android:text="State"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Talent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/State"
+                android:layout_alignTop="@+id/talent"
+                android:text="Talent"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Instrument"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/instrument"
+                android:layout_alignBottom="@+id/instrument"
+                android:layout_alignStart="@+id/Talent"
+                android:text="Instrument"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/Instrument"
+                android:layout_below="@+id/Instrument"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="32dp"
+                android:text="Adress"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Members"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/members"
+                android:layout_alignBottom="@+id/members"
+                android:layout_alignStart="@+id/Instrument"
+                android:text="Members"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/AnyEventPerformed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/Instrument"
+                android:layout_alignTop="@+id/anyEventPerformed"
+                android:text="Any Event Performed"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DetailsOfEvents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/detailsOfEvents"
+                android:layout_alignBottom="@+id/detailsOfEvents"
+                android:layout_toStartOf="@+id/detailsOfEvents"
+                android:text="Details of Events"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ContactNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact no."
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_alignBaseline="@+id/contactNo"
+                android:layout_alignBottom="@+id/contactNo"
+                android:layout_alignStart="@+id/Members" />
+
+            <TextView
+                android:id="@+id/UploadPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/ContactNumber"
+                android:layout_below="@+id/contactNo"
+                android:layout_marginTop="24dp"
+                android:text="Upload Photo"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/selectafile"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/UploadPhoto"
+                android:layout_alignBottom="@+id/UploadPhoto"
+                android:layout_alignStart="@+id/contactNo"
+                android:layout_marginStart="12dp"
+                android:background="@android:color/background_dark"
+                android:text="select a file"
+                android:textColor="@android:color/background_light" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/selectafile"
+                android:text="submit"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

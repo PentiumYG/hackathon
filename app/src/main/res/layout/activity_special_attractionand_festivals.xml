@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuktigoswami.hackathon.SpecialAttractionandFestivals">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:text="Special Atrraction and Festivals"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marwar festival"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/Mewarfestival1" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rajasthan features in the list of the top tourist destinations in the world. The variety of attractions in Rajasthan helps in attracting a large number of tourists from different parts of the world. The variety of tourist attraction includes places with awesome natural beauty along with places with great historical importance. Each of these places attracts a large number of tourists. There are also a large number of places with religious importance. These place experiences a high footfall of tourists during different times of the year. The fairs and festivals of Rajasthan are also a great attraction for tourists. These fairs and festivals are the best way to get close to the culture and tradition of the state. The Marwar Festival Jodhour is one of the most awaited festivals of Rajasthan. Reflecting the rich culture of the place, the festival is celebrated with a lot of excitement and zeal.  Start Date: 23/10/2018 End Date: 24/10/2018 "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pushkar fair"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/pushkar1" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" The Pushkar Fair, also known as the Pushkar Camel Fair, or Pushkar Mela, is a colorful and vibrant display of unique exhibitions, exciting competitions and fascinating events. Extending to seven days, this annual camel and livestock fair, held in the town of Pushkar between the months of October and November, draws a large number of crowds. Besides, this fair is renowned for being one of the world’s largest cattle fairs.   Start Date: 23/10/2018 End Date: 24/10/2018"
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Winter Festival in Mount Abu "
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/winter" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Duration :      29/12/2017 - 30/12/2017      Rajasthan is a place rich in culture and tradition. Besides the numerous tourist attractions, the rich culture and tradition of the place is also a great attraction for tourists. The various fairs and festivals are the perfect places to visit in order to get close to the rich culture of the state. Moreover, some of these festivals also have religious significance. Hence, a visit to these festivals will also reveal the religious history of the place. There are many fairs and festivals held in the different parts of Rajasthan. The Winter Festival in Mount Abu is one of the most popular festivals in Rajasthan. The festival held in Mount Abu adds a lot of attractions to the only hill station of Rajasthan. The much-talked about event is a rare combination of cultural vibrancy, stunning handicrafts and delicious food, set against a scenic backdrop. This three day extravaganza brings together craftsmen and performers from every corner of the state. It is also known for its sporting and entertainment events, such as kite flying, rowing competitions and poetry reading sessions. Also, it is the only festival in Rajasthan where cricket has been introduced as a part of the celebration. A grand procession marks the beginning of the festival. It culminates at the Nakki Lake with the ‘Deepdaan’ ceremony in the evening, where hundreds of diyas (earthen lamps) are set afloat in the water as a form of respect. A stunning display of fireworks ends the festival on a spectacular note. The dates for 2016 are 29th December and 30th December. The Udaipur Airport is the closest and is located 175 kilometres away. Udaipur "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Camel Festival in Bikaner"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/camel" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  Duration :      13/01/2018 - 14/01/2018     Camel Fair, Bikaner is a sought after event in Rajasthan. Organized by the Department of Tourism, Art and Culture, Bikaner Camel Festival is a yearly event in January that Bikaner celebrates in honor of the ship of the desert, Camel. The festivities are at par with the other celebrations of Rajasthan. The event mainly includes spectacular camel performances like camel dances, camel races, neck shaking camel rides etc. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Desert Festival, Jaisalmer"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/jfestival" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    Duration :      29/01/2018 - 31/01/2018       The Jaisalmer Desert Festival is an annual event that take place in February month in the beautiful city Jaisalmer. It is held in the Hindu month of Magh (February), three days prior to the full moon. The festival is celebrated amidst the beautiful dunes of the Thar Desert in the Sam dunes (42 kilometers from Jaisalmer). Romantic, remote and unspoiled, the location comes to life during the three day extravaganza of the delights of the desert. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Brij Festival Bharatpur"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/bfest" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    Duration :      25/02/2018 - 26/02/2018    Bharatpur is one of the states in Rajasthan which is founded by Maharaja Suraj Mal. The state was founded in 1733, which is situated in the Brij region. Bharatpur was previously a walled city. It was also the capital of the Jats. The kingdom was ruled by Sinsinwar Maharajas. The states of Bharatpur, Dholpur and Deeg played an important role in the history of Rajasthan. Many fairs and festivals are held in the region, which are pretty famous. Brij Festival Bharatpur is one such festival which is also celebrated with much pomp and show.  "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alwar Festival"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Duration :      13/02/2018 - 15/02/2018     Alwar Festival. is the most popular festival in Alwar held from February 13 to February 15th annualy by the district administration to promote toursm in Alwar by showcasing the culture and art of this region. Visiting the Alwar Festival is a great experience. and offers best opportunity to get a peek into the culture and traditions of this former princedom."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Summer Festival"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/kite_Festival" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Duration :      29/04/2018 - 30/04/2018     Mount Abu in Rajasthan is touched by a festive mood on the eve of the Summer Festival that is held every year in the month of June. Mount Abu is bestowed with steep rocks, tranquil lakes, picturesque backdrop and the favorable climate which make it a perfect spot for the festival. Summer festival in Mount Abu, a two-day festival is basically a feast of folk and classical music and it gives a vivid knowledge about the tribal life and culture of Rajasthan."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mewar Festival"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/Mewarfestival1" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Duration :      18/03/2018 - 20/03/2018      Mewar Festival celebrated in Udaipur, India is a festival that marks the advent of spring. The festival is an integral part of the culture and tradition in Udaipur. People in various parts of Udaipur enthusiastically take part in this festival. The city boasts a colorful look during this festival."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teej Festival"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/teej" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" Duration :      13/08/2018 - 13/08/2018   Teej Festival is also known as 'the festival of swings'. The festival is celebrated with a lot of fervor in various parts of India. The festival reflects the rich culture and tradition of India. It mainly marks the reunion of Lord Shiva and Goddess Parvati. The festival involves a number of religious activities to be performed."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Baneshwar Fair"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/brij2" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Duration :      27/01/2018 - 31/01/2018      Rajasthan is a popular destination for foreign tourists. Trade fairs, exhibitions, and cultural events make it an even more interesting place. The Baneshwar Fair in Rajasthan's Dungarpur district is one such event that draws both locals and tourists."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="International Kite Festival, Jaipur"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="    Duration :      14/01/2018 - 16/01/2018   The International Kite Festival, Jaipur is one of the most- attended festivals in Rajasthan. The most colorful festival of Rajasthan provides unlimited fun and frolic. This festival is celebrated on 14th of January every year, the day of Makar Sankranti. The popularity of the International Kite Festival in Jaipur is such that it attracts kite fliers from far off corners of the country. The thrill and excitement lingers in the air and everyone is enchanted. Join the joyous mood of Jaipur and celebrate the pleasure of flying kites. "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kumbhalgarh Festival"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/kum" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Kumbhalgarh fort, cradled in the Aravali Ranges, north of Udaipur, hosts the vibrant and colourful Kumbhalgarh Festival. This three-day festival is an incredible effort by the Department Of Tourism of the state to promote the culture and heritage of Rajasthan. The event is divided into two parts- day and night. In the daytime there is the folk performances by traditional artistes and competitions like turban tying and henna applying. On the other hand, the night is filled with impressive explosions of lights, sound, colours and dance. The Kumbhalgarh Festival is a must visit for ardent patrons of art, music and dance. Visit Rajasthan Tourism Facebook Page for more details. The Udaipur Airport is the closest and is located 98 kilometres away."
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gangaur Festival"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/gangaur" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gangaur is one of the most important festivals in Rajasthan. In some form or the other, it is celebrated all over Rajasthan. “Gan” is a synonym for Lord Shiva and “Gauri” or “Gaur” stands for Goddess Parvati, the heavenly consort of Lord Shiva. Gangaur celebrates the union of the two and is a symbol of conjugal and marital happiness. Gangaur is celebrated in the month of Chaitra (March-April), the first month of the Hindu calendar. This month marks the end of winter and the onset of spring. This festival is celebrated especially by women, who worship clay idols of “Gan” and “Gauri” in their houses. These idols are worshipped by unmarried girls who seek the blessings of Gan and Gauri for a good husband, while the married women pray for the good health and long life of their husbands. This worship which starts from the first day of the chaitra month culminates on the 18th day into Gangaur festival with a great religious fervor. On the eve of Gangaur festival, women decorate their palms and fingers with henna. The idols of Gan and Gauri are immersed in a pond or in a nearby lake on the last day of the festival. A traditional procession of Gangaur commences form the Zanani-Deodhi of the City Palace, passing through Tripolia Bazaar, Chhoti Chaupar, Gangauri Bazaar, Chaugan stadium and finally converges near the Talkatora. The procession is headed by a colorful pageantry of old palanquins, chariots, bullock carts and performing folk artists. Jaipur "
+                android:textColor="@android:color/background_dark" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Braj holi"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/brajholi2" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Braj festival in Rajasthan is held every year for two days in the Shukla Paksha of the Phalgun month, a few days prior to Holi. This festival is dedicated to Lord Krishna who is believed to have spent a considerable amount of time in a region called Braj in Rajasthan. This festival not only replicates the spirit of Holi but also impersonates the timeless love of Radha and Krishna. The highlight of this festival is the Raslila dance performed with great zest and unity. The entire town is painted and no one is spared from being splashed with colours. The festival is celebrated with great pomp and ceremony in Deeg, Kaman and Bharatpur in the Bharatpur District. Bharatpur"
+                android:textColor="@android:color/background_dark" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

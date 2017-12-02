@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuktigoswami.hackathon.Jaisalmer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Jaisalmer"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="5dp">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Introduction"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text='Jaisalmer, nicknamed "The Golden city", is a city in the Indian state of Rajasthan, located 575 kilometres (357 mi) west of the state capital Jaipur. Once known as Jaisalmer state it is a World Heritage Site. The town stands on a ridge of yellowish sandstone, crowned by a fort, which contains the palace and several ornate Jain temples. Many of the houses and temples are finely sculptured. It lies in the heart of the Thar Desert (the Great Indian Desert) and has a population of about 78,000. It is the administrative headquarters of Jaisalmer District.'
+                            android:textColor="@android:color/background_dark"></TextView>
+
+                        <ImageView
+                            android:id="@+id/imageView13"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="0.09"
+                            app:srcCompat="@drawable/jaisalmer2" />
+
+                        <ImageView
+                            android:id="@+id/imageView57"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/jaisalmer3" />
+
+                        <ImageView
+                            android:id="@+id/imageView58"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/jaisalmer4" />
+
+                        <ImageView
+                            android:id="@+id/imageView59"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/jaisalmer5" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hotspots"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Main tourists attractions of jaisalmer are as follows:Jaisalmer Fort, Jain Heritage of jaisalmer, Paraswanath Temple, Chandraprabhu temple, Rishabdev temple, Shitalnath Temple, Kunthunath Temple, and Shantinath Temple,jaisalmer War Museum, Desert Culture Centre and Museum, Jaisalmer Folklore Museum, Government Museum, Jaisalmer Fort Palace Museum, Jaisalmer War Museum, Akal Fossil Park Museums ,Cactus Park Museum, Kuldhara Tanot Museum,Tanot, Ramdevra a village in Jaisalmer is named after Baba Ramdevji, a Tanwar Rajput and a saint who took Samādhi in 1384 CE, at the age of 33 years. He is worshiped today by many social groups of India as Ishta-deva.   Gadsisar lake, Jaisalmer Gadsisar Lake – Excavated in 1367 by Rawal Gadsi Singh, it is a scenic rainwater lake surrounded by the small temples and shrines of Amar Sagar. Earlier, this lake was used to be the main water source of Jaisalmer. Due to an increased water demand for agriculture, the lake is increasingly threatened to dry out."
+                            android:textColor="@android:color/background_dark" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="10dp"
+                        android:weightSum="1">
+
+                        <ImageView
+                            android:id="@+id/imageView60"
+                            android:layout_width="match_parent"
+                            android:layout_height="180dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/ja" />
+
+                        <ImageView
+                            android:id="@+id/imageView15"
+                            android:layout_width="match_parent"
+                            android:layout_height="180dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/jaisalmer" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="History"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.84"
+                            android:text='Jaisalmer is named after Maharawal Jaisal Singh, a Rajput king who founded the city in 1156 AD."Jaisalmer" means "the Hill Fort of Jaisal". Jaisalmer is sometimes called the "Golden City of India" because the yellow sand and the yellow sandstone used in every architecture of the city gives a yellowish-golden tinge to the city and its surrounding area.It is the largest district of Rajasthan and 3rd largest district by territorial region in the country, hugged on the west and south-west by the Pakistani border. The length of the international border attached to Jaisalmer District is 471 km (293 mi).Jaisalmer, being an arid desert region, is prone to extremes in terms of temperature. The temperature varies greatly from day to night in both summer and winter. The maximum summer temperature is around 49 °C (120 °F) while the minimum is 25 °C (77 °F). The maximum winter temperature is usually around 23.6 °C (74.5 °F) and the minimum is 5 °C (41 °F). Desert Festival of Jaisalmer is the most awaited and famous cultural and colorful events that dominates the sand of Rajasthan and Camel races, turban tying competitions are organized. It is held in the month of February every year in Rajasthan. The desert festival in Jaisalmer is showcase Rajasthani folk songs and dance so it is very attracted festival for foreign tourists. The rich culture of the region is on display during this three day long festival. This is the best time to visit Jaisalmer to witness performing arts like Kalbelia dances and folk songs and music.'
+                            android:textColor="@android:color/background_dark" />
+
+                        <ImageView
+                            android:id="@+id/imageView14"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="0.09"
+                            app:srcCompat="@drawable/jaisalmer6" />
+
+                        <ImageView
+                            android:id="@+id/imageView61"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/jaisalmer7" />
+
+                        <ImageView
+                            android:id="@+id/imageView62"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/jaisalmer8" />
+
+                        <ImageView
+                            android:id="@+id/imageView63"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/jaisalmer9" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

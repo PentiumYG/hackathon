@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuktigoswami.hackathon.Jodhpur">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Jodhpur"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="5dp">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Introduction"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Jodhpur, one of the largest district of Rajasthan state is centrally situated in Western region of the State, having geographical area of 22850 sq. Kms. It has population of 36.85 lacs as per 2011 census. The district stretches between 2600’ and 27037’ at north Latitude and between 72 55’ and 73 52’ at East Longitude. This district is situated at the height between 250-300 meters above sea level."
+                            android:textColor="@android:color/background_dark"></TextView>
+
+                        <ImageView
+                            android:id="@+id/imageView13"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="0.09"
+                            app:srcCompat="@drawable/jodhu3" />
+
+                        <ImageView
+                            android:id="@+id/imageView24"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            app:srcCompat="@drawable/jodhu4" />
+
+                        <ImageView
+                            android:id="@+id/imageView25"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            app:srcCompat="@drawable/jodhu5" />
+
+                        <ImageView
+                            android:id="@+id/imageView26"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            app:srcCompat="@drawable/jodhu7" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hotspots"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Jodhpur is famous for its rich history. It is also referred to as the Blue City and &quot;Sun City&quot;. Blue City is derived due to the blue tinge to the whitewashed houses around the Mehrangarh Fort. Other notable places of interest are the Umaid Bhawan Palace which a portion currently serves as the residence of the current Maharaja Gaj Singh's family and the remaining portion is a 5 star hotel under the Taj Group of Hotels."
+                            android:textColor="@android:color/background_dark" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="10dp"
+                        android:weightSum="1">
+
+                        <ImageView
+                            android:id="@+id/imageView15"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/jodhu1" />
+
+                        <ImageView
+                            android:id="@+id/imageView27"
+                            android:layout_width="match_parent"
+                            android:layout_height="130dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/jodhu2" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.09"
+                            android:text="History"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.93"
+                            android:text="Jodhpur history revolves around the Rathore Clan. Rao Jodha, the chief of the Rathore clan, is credited with the origin of Jodhpur in India. He founded Jodhpur in 1459. The city is named after him only. It was previously known as Marwar.  The Rathores were driven out of their original homeland, Kaunaj, by Afghans. They fled to Pali, near to the present day Jodhpur. Rathore Siahaji married the sister of a local prince. This helped the Rathores to establish and strengthen themselves in this region. In some time they ousted the Pratiharas of Mandore, just 9 km of Jodhpur. Initially, Mandore served as their capital, but, by 1459, Rathores felt a need for a secure capital. This leads to the formation of Jodhpur, the Sun City, by Rao Jodha.  The Rathores enjoyed good relations with all the Mughals, except Aurangzeb. Maharaja Jaswant Singh even supported Shahjahan in his struggle for succession. After Aurangzeb's death, Maharaja Ajit Singh drove out Mughals from Ajmer and added it to Marwar (now Jodhpur). Under the reign of Maharaja Umed Singh, Jodhpur grew into a fine modern city.  During the British Raj, the state of Jodhpur was the largest in Rajputana, by land area. Jodhpur prospered under the British Raj. Its merchants, the Marwaris, flourished endlessly. They came to occupy a dominant position in trade throughout India. In 1947 India became independent and the state merged into the union of India. Jodhpur became the second city of Rajasthan."
+                            android:textColor="@android:color/background_dark" />
+
+                        <ImageView
+                            android:id="@+id/imageView14"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_weight="0.09"
+                            app:srcCompat="@drawable/jodhu6" />
+
+                        <ImageView
+                            android:id="@+id/imageView28"
+                            android:layout_width="match_parent"
+                            android:layout_height="150dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/jodhu8" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

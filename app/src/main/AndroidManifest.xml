@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yuktigoswami.hackathon">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Screen2" />
+        <activity android:name=".TouristLogin" />
+        <activity android:name=".ClickArtists" />
+        <activity android:name=".Clicklogin" />
+        <activity android:name=".EventOrganiser" />
+        <activity android:name=".Cities" />
+        <activity android:name=".Ajmer" />
+        <activity android:name=".Alwar" />
+        <activity android:name=".kota" />
+        <activity android:name=".Jodhpur" />
+        <activity android:name=".Bharatpur" />
+        <activity android:name=".Bikaner" />
+        <activity android:name=".Jaipur" />
+        <activity android:name=".Udaipur" />
+        <activity android:name=".Jaisalmer" />
+        <activity android:name=".Dausa" />
+        <activity android:name=".SawaiMadhopur" />
+        <activity android:name=".SriGanganagar" />
+        <activity android:name=".food" />
+        <activity android:name=".CultureAndHistory" />
+        <activity android:name=".SpecialAttractionandFestivals" />
+        <activity android:name=".Profile"></activity>
+    </application>
+
+</manifest>

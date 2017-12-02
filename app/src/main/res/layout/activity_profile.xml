@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.yuktigoswami.hackathon.Profile"
+        tools:showIn="@layout/activity_main"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="267dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:background="#c4e52c37"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="287dp"
+                    android:layout_height="180dp"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginTop="38dp"
+                    android:src="@drawable/uktiii" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="8dp"
+                    android:text="Yukti Goswami"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="27dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="213dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="25dp">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="34dp"
+                    android:src="@drawable/ic_photo_black_24dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="25dp"
+                    android:text="Pictures of Yukti "
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="25dp">
+
+                    <ImageView
+                        android:layout_width="36dp"
+                        android:layout_height="34dp"
+                        android:src="@drawable/ic_call_black_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingLeft="25dp"
+                        android:text=" Contact Artist "
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="25dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="25dp">
+
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="34dp"
+                            android:src="@drawable/ic_movie_black_24dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:paddingLeft="25dp"
+                            android:text="Demo of Yukti's Talent  "
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="350dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="25dp">
+
+                        <ImageView
+                            android:layout_width="36dp"
+                            android:layout_height="34dp"
+                            android:src="@drawable/ic_group_black_24dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:paddingLeft="25dp"
+                            android:text="Works till now "
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+

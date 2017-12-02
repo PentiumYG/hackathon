@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuktigoswami.hackathon.SawaiMadhopur">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Sawai Madhopur"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="5dp">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Introduction"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Sawai Madhopur is a city and Municipal Corporation (Nagar Parishad) in the Sawai Madhopur District in Rajasthan state, India. It is the administrative headquarters of Sawai Madhopur District of Rajasthan.Sawai Madhopur District comes under Bharatpur Divisional Commissionerate. [2] Near to Sawai Madhopur is the Ranthambore National Park and Ranthambore Fort, a UNESCO World Heritage Site. In Sawai Madhopur is the Trinetra Ganesh temple. Guavas are grown in the region."
+                            android:textColor="@android:color/background_dark"></TextView>
+
+                        <ImageView
+                            android:id="@+id/imageView13"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="0.09"
+                            app:srcCompat="@drawable/sawai" />
+
+                        <ImageView
+                            android:id="@+id/imageView66"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/sawai2" />
+
+                        <ImageView
+                            android:id="@+id/imageView67"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/sawai3" />
+
+                        <ImageView
+                            android:id="@+id/imageView68"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/sawai4" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hotspots"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ranthambore National Park is one of the largest national parks in India. It is situated about 11 kilometres (6.8 mi) from Sawai Madhopur. In 1955, it was established as the Sawai Madhopur Game Sanctuary. In 1973, the land became a Project Tiger reserve. The area was renamed the Ranthambore National Park in 1980. In 1984, the adjacent forests were declared the Sawai Man Singh Sanctuary and Keladevi Sanctuary, and in 1991 the tiger reserve was enlarged to include Sawai Man Singh and Keladevi sanctuaries.other than this one can have fun at:Ranthambore Fort,Rajiv Gandhi Regional Museum of Natural History, Shilpgram, Galta mandir and  shiv mandir."
+                            android:textColor="@android:color/background_dark" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="10dp"
+                        android:weightSum="1">
+
+                        <ImageView
+                            android:id="@+id/imageView64"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/sawai5" />
+
+                        <ImageView
+                            android:id="@+id/imageView15"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/sawai6" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="History"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.50"
+                            android:text="Sawai Madhopur was built as a planned city by Maharaja Madho Singh I of Jaipur (1751 – 1768) and is named after him.[6] Construction began on 19 January 1763 and Sawai Madhopur celebrates its foundation day annually.  The Sawai Madhopur Lodge, now a hotel, survives as a relic of the days of tiger hunting. The lodge was built in 1936 by Maharaja Man Singh II (1912 – 1971) and used as a hunting lodge until his death. The two story building is constructed in a crescent shape with a long verandah.[7] Queen Elizabeth of England visited the lodge in January 1961.Sawai Madhopur is located in southeast Rajasthan. It lies on the northern extension of the Vindhyan Plateau in an area of complex geology.[3] The city is approximately 121 kilometres (75 mi) southeast of Jaipur.[4] To the north of the town is the Banas River.[5] To the east, across the Parbati River, is the large Kuno Wildlife Sanctuary of Madhya Pradesh."
+                            android:textColor="@android:color/background_dark" />
+
+                        <ImageView
+                            android:id="@+id/imageView14"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="0.09"
+                            app:srcCompat="@drawable/sawai7" />
+
+                        <ImageView
+                            android:id="@+id/imageView65"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/sawai8" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

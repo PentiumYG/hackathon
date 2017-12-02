@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuktigoswami.hackathon.Dausa">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Dausa"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="5dp">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Introduction"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Kota formerly known as Kotah, is the 25th largest district in the northern Indian state of Rajasthan. It is located 240 kilometers (149 mi) south of state capital, Jaipur. Situated on the banks of Chambal River, and has been identified as a counter-magnet city for the National Capital Region to attract migrants and develop as an alternative centre of growth to Delhi. It is 47th most populous city of India.Kota is famous for its coaching institutes for engineering and medical entrance exams. It is also called 'Education City of India'."
+                            android:textColor="@android:color/background_dark"></TextView>
+
+                        <ImageView
+                            android:id="@+id/imageView43"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/dausa3" />
+
+                        <ImageView
+                            android:id="@+id/imageView46"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/dausa4" />
+
+                        <ImageView
+                            android:id="@+id/imageView47"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/dausa5" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hotspots"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Some of the popular visitor attractions in and near the city include Chambal Garden, Seven Wonders Park, Chatra Vilas Garden, Kota Zoological Park, Kishore Sagar Lake, Jag Mandir, Maharao Madho Singh Museum, Kota Government Museum, Brijraj Bhawan Palace, Garh Palace, Abheda Mahal, Godavari Dham Temple, Rangbari Balaji Temple, Garadia Mahadev Temple, Agamgarh Gurudwara Sahib, Hanging Rock Fountain, Royal Cenotaphs at Kshar Bagh, Kota Barrage, Adarshila Dargah, Darrah National Park and Jawahar Sagar Dam.There are several shopping malls and complexes in Kota. City Mall and Cinemall on Jhalawar road, Centre Square Mall and Akash Mall in Gumanpura and Ahluwalia's The Great Mall of Kota near DCM road are some of the notable retail malls in the city."
+                            android:textColor="@android:color/background_dark" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="10dp"
+                        android:weightSum="1">
+
+                        <ImageView
+                            android:id="@+id/imageView48"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/dausa" />
+
+                        <ImageView
+                            android:id="@+id/imageView15"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/dausa2" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.09"
+                            android:text="History"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="The history of the city dates back to the 12th century AD when Rao Deva, a Chauhan Rajput chieftain belonging to the Hada clan conquered the territory and founded Bundi and Hadoti. Later, in the early 17th century, during the reign of the Mughal Emperor Jahangir, the ruler of Bundi - Rao Ratan Singh, gave the smaller principality of Kota to his son, Madho Singh. Since then Kota became a hallmark of the Rajput gallantry and culture.
+Diwali celebrations at medieval Kotah.
+The independent state of Kota became a reality in 1631 when Rao Madho Singh, the second son of Rao Ratan of Bundi was made the ruler, by the Mughal Emperor Jahangir.Soon Kota outgrew its parent state to become bigger in area, richer in revenue and more powerful. Maharao Bhim Singh played a pivotal role in Kota's history, having held a 'Mansab' of five thousand and being the first in his dynasty to have the title of Maharao. Zalim Singh, a diplomat and statesman, emerged as another prominent figure of the state in the 18th century. Although initially being a general of Kota's army, he rose to the regent of the kingdom after the king died leaving a minor on the throne. He remained a direct administrator of the state. In 1817, a treaty of friendship was signed between him and the British on his condition of carving out a part from the existing state for his descendants resulting in Jhalawar coming into existence in 1838.[12] During the colonial period, firebrand social activist Guru Radha Kishan organised the masses against the policies of the government. He left Kota after local administration came to know about the arrest warrant issued against him for his participation in Indian Independence activities.
+
+"
+                            android:textColor="@android:color/background_dark"
+                            android:layout_weight="0.93" />
+
+                        <ImageView
+                            android:id="@+id/imageView14"
+                            android:layout_width="match_parent"
+                            android:layout_height="225dp"
+                            android:layout_weight="0.09"
+                            app:srcCompat="@drawable/dausa6" />
+
+                        <ImageView
+                            android:id="@+id/imageView49"
+                            android:layout_width="match_parent"
+                            android:layout_height="225dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/dausa7" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

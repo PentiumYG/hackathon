@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yuktigoswami.hackathon.SriGanganagar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Chittorgarh"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="5dp">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Introduction "
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=" Chittorgarh City Chittorgarh is located in Rajasthan ChittorgarhChittorgarh Show map of Rajasthan Show map of India Show all Location in Rajasthan, India Coordinates: 24.88°N 74.63°ECoordinates: 24.88°N 74.63°E Country	 India State	Rajasthan District	Chittorgarh Founded by	Chitrangada Mori Named for	Chitrangada Mori Government  • Body	Chittorgarh Municipal Council Area  • Total	41.76 km2 (16.12 sq mi) Elevation	394.6 m (1,294.6 ft) Population (2011)  • Total	184,439  • Rank	121  • Density	4,400/km2 (11,000/sq mi) Languages  • Official	Hindi, English, Mewari Time zone	IST (UTC+5:30) PIN	312001 Area code(s)	+91-01472-XXXXXX Vehicle registration	RJ-09 Website	www.chittorgarh.rajasthan.gov.in uitchittorgarh.nic.in Chittorgarh (also Chittor or Chittaurgarh) is a city and a municipality in Rajasthan state of western India. It lies on the Berach River, a tributary of the Banas, and is the administrative headquarters of Chittorgarh District and a former capital of the Sisodia Rajput Dynasty of Mewar. The city of Chittaurgarh is located on the banks of river Gambhiri and Berach.  Chittorgarh is home to the Chittor Fort, the largest fort in India and Asia. It was the site of three major sieges (1303, 1535, and 1567–1568) by Muslim invaders, and its Hindu rulers fought fiercely to maintain their independence. On more than one occasion, when faced with a certain defeat, the men fought to death while the women committed suicide by jauhar (mass self-immolation). Chittor also has been a land of worship for Meera."
+                            android:textColor="@android:color/background_dark"></TextView>
+
+                        <ImageView
+                            android:id="@+id/imageView13"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="0.09"
+                            app:srcCompat="@drawable/chitt5" />
+
+                        <ImageView
+                            android:id="@+id/imageView72"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/chitt6" />
+
+                        <ImageView
+                            android:id="@+id/imageView73"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/chitt7" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Hotspots"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Chittorgarh is famous for its festival celebrations such as:Maharana Pratap Jayanti ,Meera Mahotsav, Teej , Gangaur, Jauhar Mela and  Rang Teras – The Tribal Fair"
+                            android:textColor="@android:color/background_dark" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="10dp"
+                        android:weightSum="1">
+
+                        <ImageView
+                            android:id="@+id/imageView71"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/chitt" />
+
+                        <ImageView
+                            android:id="@+id/imageView70"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/chitt2" />
+
+                        <ImageView
+                            android:id="@+id/imageView69"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/chitt3" />
+
+                        <ImageView
+                            android:id="@+id/imageView15"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_weight="0.08"
+                            app:srcCompat="@drawable/chitt4" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="History"
+                            android:textColor="@android:color/background_dark"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.65"
+                            android:text="Originally called Chitrakuta, the Chittor Fort is said to have been built by Chitranga, a king of the local Maurya dynasty (not to be confused with the imperial Mauryans). The Guhila (Gahlot) ruler Bappa Rawal is said to have captured the fort in either 728 CE or 734 CE.[2] However, some historians doubt the historicity of this legend, arguing that the Guhilas did not control Chittor before the reign of the later ruler Allata. In 1303, the Delhi Sultanate ruler Alauddin Khalji defeated the Guhila king Ratnasimha, and captured the fort.The fort was later captured by Hammir Singh, a king of the Sisodia branch of the Guhilas. Chittor gained prominence during the period of his successors, which included Rana Kumbha and Rana Sanga. In 1535, Bahadur Shah of Gujarat besieged and conquered the fort. After he was driven away by the Mughal emperor Humayun, the Sisodias regained control of the fort.  In 1567-68, the Mughal emperor Akbar besieged and captured the fort."
+                            android:textColor="@android:color/background_dark" />
+
+                        <ImageView
+                            android:id="@+id/imageView14"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_weight="0.09"
+                            app:srcCompat="@drawable/chitt8" />
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
